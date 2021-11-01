@@ -3,7 +3,7 @@
     import Card from './Card.svelte'
     export let item
 
-    const dispatch = createEventDispatcher()
+    let dispatch = createEventDispatcher()
 
     const handleDelete = itemId => {
         dispatch('delete-feedback', itemId)
