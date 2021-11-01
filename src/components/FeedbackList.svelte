@@ -1,7 +1,7 @@
 <script>
     import FeedbackItem from "./FeedbackItem.svelte";
     import { fade, scale } from 'svelte/transition'
-    import {FeedbackStore} from '../stores'
+    import {FeedbackStore} from '../store'
 </script>
 
 {#each $FeedbackStore as fb (fb.id)}

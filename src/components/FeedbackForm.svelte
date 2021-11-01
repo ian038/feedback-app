@@ -3,6 +3,7 @@
     import Card from './Card.svelte'
     import Button from './Button.svelte'
     import RatingSelect from './RatingSelect.svelte'
+    import {FeedbackStore} from '../store'
 
     let text = ''
     let rating = 10
